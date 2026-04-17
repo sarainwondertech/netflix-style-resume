@@ -2,6 +2,8 @@
 
 A Next.js template that tells a career as a Netflix show. Each chapter becomes a "show" with cover art, episodes, a trailer, and a photo gallery — rendered as carousels on a Netflix-style homepage.
 
+![Homepage hero](docs/screenshots/hero.png)
+
 ## Features
 
 - Looping hero trailer, horizontal carousels, show detail modal
@@ -14,6 +16,14 @@ A Next.js template that tells a career as a Netflix show. Each chapter becomes a
 ## Tech stack
 
 Next.js 16 · React 19 · Tailwind v4 · Framer Motion · TypeScript
+
+## Screenshots
+
+![Carousel of show cards](docs/screenshots/carousel1.png)
+
+![Second carousel row](docs/screenshots/carousel2.png)
+
+![Show detail modal with synopsis, episodes, and photo gallery](docs/screenshots/carddetails.png)
 
 ## Quick start
 
