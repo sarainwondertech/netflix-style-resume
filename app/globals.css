@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-netflix-red: #DC2626;
+  --color-netflix-black: #141414;
+  --color-netflix-dark: #181818;
+  --color-netflix-card: #1a1a1a;
+  --color-netflix-gray: #808080;
+
+  --font-title: var(--font-bebas-neue), sans-serif;
+  --font-body: var(--font-inter), sans-serif;
+}
+
+body {
+  background-color: #141414;
+  color: white;
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+button:focus-visible {
+  outline: 2px solid #E50914;
+  outline-offset: 2px;
+}
+
+/* Feathers all four edges of an element into transparency on desktop,
+   so the element dissolves smoothly into whatever layer sits behind it.
+   Used on the hero's crisp foreground video so its hard rectangular
+   edges fade into the blurred background layer instead of cutting sharply. */
+@media (min-width: 768px) {
+  .feather-edges {
+    -webkit-mask-image:
+      linear-gradient(to right, transparent, black 8%, black 92%, transparent),
+      linear-gradient(to bottom, transparent, black 8%, black 92%, transparent);
+    -webkit-mask-composite: source-in;
+    mask-image:
+      linear-gradient(to right, transparent, black 8%, black 92%, transparent),
+      linear-gradient(to bottom, transparent, black 8%, black 92%, transparent);
+    mask-composite: intersect;
+  }
+}
