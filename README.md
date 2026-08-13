@@ -7,7 +7,6 @@ A Next.js template that tells a career as a Netflix show. Each chapter becomes a
 ## Features
 
 - Looping hero trailer, horizontal carousels, show detail modal
-- Data-driven — edit three files and the whole site changes
 - Per-show cover, header, and photo gallery
 - Framer Motion hover + modal transitions
 - Responsive phone → 4K, with LAN dev support for mobile testing
