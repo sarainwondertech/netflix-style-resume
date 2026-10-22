@@ -42,6 +42,7 @@ data/profile.ts
 data/shows.ts
 data/rows.ts
 data/*.backup.ts
+data/*.personal.ts
 public/photos/*
 !public/photos/.gitkeep
 DESIGN.md
